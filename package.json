@@ -1,5 +1,4 @@
 {
-  "private"        : true,
   "name"           : "angular-link-header-parser",
   "version"        : "1.0.2",
   "description"    : "AngularJS factory that parse Link header and return a JSON object.",
