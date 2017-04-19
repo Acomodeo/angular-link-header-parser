@@ -1,12 +1,15 @@
 {
   "name"           : "angular-link-header-parser",
-  "version"        : "1.0.2",
+  "version"        : "1.0.3",
   "description"    : "AngularJS factory that parse Link header and return a JSON object.",
   "scripts"        : {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author"         : "Ismael Gorissen <ismael.gorissen@gmail.com>",
   "license"        : "MIT",
+  "dependencies": {
+    "uri-util": "~1.1.0"
+  },
   "devDependencies": {
     "gulp"             : "^3.9.0",
     "gulp-bytediff"    : "^1.0.0",

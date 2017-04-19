@@ -1,4 +1,5 @@
 (function () {
+  linkHeaderParser.$inject = ["$log"];
   angular
     .module("ig.linkHeaderParser", [])
     .factory("linkHeaderParser", linkHeaderParser);
@@ -101,5 +102,4 @@
       return extracted;
     }
   }
-  linkHeaderParser.$inject = ["$log"];
 })();
