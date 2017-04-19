@@ -33,7 +33,7 @@
 
       $log.debug("Links: ", links);
 
-      _.forEach(links, function (link) {
+      links.forEach(function (link) {
         _parseElement(link, linkHeaderObject);
       });
 
