@@ -1,3 +1,5 @@
+import * as URIUtil from 'uri-util'
+
 (function () {
   linkHeaderParser.$inject = ["$log"];
   angular
